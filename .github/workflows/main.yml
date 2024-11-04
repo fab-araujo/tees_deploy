@@ -10,5 +10,5 @@ jobs:
     - name: Deploy Stage
       uses: fjogeleit/http-request-action@v1
       with:
-        url: 'https://ansible.io/api/v2/job_templates/84/launch/'
+        url: 'http://discente-1.npca.tec.br/deploy/update/'
         method: 'GET'

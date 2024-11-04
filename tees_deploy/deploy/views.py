@@ -4,7 +4,7 @@ import os
 
 # Create your views here.
 def index(request):
-    return HttpResponse("INDEX 3")
+    return HttpResponse("INDEX 4")
 
 def update(request):
     os.system("git pull origin main")

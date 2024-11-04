@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Deploy Stage
-      run: echo Running
+      uses: fjogeleit/http-request-action@v1
       with:
         url: 'https://ansible.io/api/v2/job_templates/84/launch/'
         method: 'GET'
